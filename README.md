@@ -1,3 +1,3 @@
-# test-automation-learnqa-api
+# Test automation LearnQA API
 
-Фреймворк для автоматизации тестирования тестового API LearnQA с помощью Python и Pytest
+Фреймворк для автоматизации тестирования тестового API курса [Автоматизация тестирования REST API на Python](https://www.learnqa.ru/python_api) от LearnQA с помощью Python и Pytest
