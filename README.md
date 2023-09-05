@@ -1,2 +1,3 @@
 # test-automation-learnqa-api
-Framework for automating LearnQA API testing using Python and Pytest
+
+Фреймворк для автоматизации тестирования тестового API LearnQA с помощью Python и Pytest
