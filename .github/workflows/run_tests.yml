@@ -30,8 +30,8 @@ jobs:
       
     - name: positive_tests
       if: 'github.event.inputs.deployment_target == "positive_tests"'
-      run: pytest "positive"
+      run: pytest -m "positive"
 
     - name: negative_tests
       if: 'github.event.inputs.deployment_target == "negative_tests"'
-      run: pytest "negative"
+      run: pytest -m "negative"
