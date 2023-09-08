@@ -1,7 +1,16 @@
 name: Test Automation REST API
 
 on:
-  push
+  workflow_dispatch:
+    inputs:
+      deployment_target:
+        description: Choose target
+        required: true
+        default:
+        type: choice
+        options:
+          - positive_tests
+          - negative_tests
 
 jobs:
   test: 
@@ -19,5 +28,10 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
       
-    - name: Run tests
-      run: pytest
+    - name: positive_tests
+      if: 'github.event.inputs.deployment_target == "positive_tests"'
+      run: pytest "positive"
+
+    - name: negative_tests
+      if: 'github.event.inputs.deployment_target == "negative_tests"'
+      run: pytest "negative"
