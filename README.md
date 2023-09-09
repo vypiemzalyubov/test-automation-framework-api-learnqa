@@ -1,5 +1,8 @@
 # Test Automation REST API
 
+[![Python](https://img.shields.io/badge/python-3.11.2%2B-blue)](https://www.python.org/downloads/release/python-3112/)
+[![Build](https://github.com/franneck94/Python-Project-Template/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/vypiemzalyubov/test-automation-rest-api/actions)
+
 Framework for automating API testing from the course ["Automating REST API testing in Python"](https://www.learnqa.ru/python_api) by LearnQA
 
 ## :pushpin: Navigation
@@ -12,10 +15,9 @@ Automated CRUD (`POST`, `GET`, `PUT`, `DELETE`) APIs using `Python` and `Pytest`
 
 ## :pushpin: Prerequisites:
 
-[![Static Badge](https://img.shields.io/badge/python-3.11.2%2B-blue)](https://www.python.org/downloads/release/python-3112/)
-[![Static Badge](https://img.shields.io/badge/pytest-7.4.2-blue)](https://pypi.python.org/pypi/pytest)
-[![Static Badge](https://img.shields.io/badge/requests-2.31.0-blue)](https://pypi.python.org/pypi/requests)
-[![Static Badge](https://img.shields.io/badge/allure--pytest-2.13.2-blue)](https://pypi.python.org/pypi/allure-pytest)
+[![Pytest](https://img.shields.io/badge/pytest-7.4.2-blue)](https://pypi.python.org/pypi/pytest)
+[![Requests](https://img.shields.io/badge/requests-2.31.0-blue)](https://pypi.python.org/pypi/requests)
+[![Allure Pytest](https://img.shields.io/badge/allure--pytest-2.13.2-blue)](https://pypi.python.org/pypi/allure-pytest)
 
 ## :pushpin: Project Structure:
 
