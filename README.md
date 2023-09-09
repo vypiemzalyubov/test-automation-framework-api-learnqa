@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.11.2%2B-blue)](https://www.python.org/downloads/release/python-3112/)
 [![Build](https://github.com/franneck94/Python-Project-Template/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/vypiemzalyubov/test-automation-rest-api/actions)
 
-Framework for automating API testing from the course ["Automating REST API testing in Python"](https://www.learnqa.ru/python_api) by LearnQA
+Framework for automating API testing from the course [**"Automating REST API testing in Python"**](https://www.learnqa.ru/python_api) by LearnQA
 
 ## :pushpin: Navigation
 
@@ -12,7 +12,7 @@ Framework for automating API testing from the course ["Automating REST API testi
 ## :pushpin: Description:
 
 - Automated CRUD (`POST`, `GET`, `PUT`, `DELETE`) APIs using `Python` and `Pytest`
-- Continuous testing with [GitHub Actions](https://github.com/features/actions/)
+- Continuous testing with [**GitHub Actions**](https://github.com/features/actions/)
 
 ## :pushpin: Prerequisites:
 
