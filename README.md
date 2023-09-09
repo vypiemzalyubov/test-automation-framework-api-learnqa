@@ -76,7 +76,7 @@ pytest -m "positive"
 # Run negative test cases
 pytest -m "negative"
 ```
-Default startup options:
+Default startup options in `pytest.ini`:
 ```python
 addopts = 
         -s -v
