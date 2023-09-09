@@ -11,7 +11,8 @@ Framework for automating API testing from the course ["Automating REST API testi
 
 ## :pushpin: Description:
 
-Automated CRUD (`POST`, `GET`, `PUT`, `DELETE`) APIs using `Python` and `Pytest`
+- Automated CRUD (`POST`, `GET`, `PUT`, `DELETE`) APIs using `Python` and `Pytest`
+- Continuous testing with [Github Actions](https://github.com/features/actions/)
 
 ## :pushpin: Prerequisites:
 
