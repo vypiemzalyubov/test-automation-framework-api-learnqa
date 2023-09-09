@@ -12,9 +12,10 @@ Automated CRUD (`POST`, `GET`, `PUT`, `DELETE`) APIs using `Python` and `Pytest`
 
 ## :pushpin: Prerequisites:
 
-[![Static Badge](https://img.shields.io/badge/pytest-gray)](https://pypi.python.org/pypi/pytest)[![pytest](https://img.shields.io/pypi/v/allure-pytest)](https://pypi.python.org/pypi/pytest)
-[![Static Badge](https://img.shields.io/badge/requests-gray)](https://pypi.python.org/pypi/requests)[![requests](https://img.shields.io/pypi/v/allure-pytest)](https://pypi.python.org/pypi/requests)
-[![Static Badge](https://img.shields.io/badge/allure--pytest-gray)](https://pypi.python.org/pypi/allure-pytest)[![allure--pytest](https://img.shields.io/pypi/v/allure-pytest)](https://pypi.python.org/pypi/allure-pytest)
+[![Static Badge](https://img.shields.io/badge/python-3.11.2%2B-blue)](https://www.python.org/downloads/release/python-3112/)
+[![Static Badge](https://img.shields.io/badge/pytest-7.4.2-blue)](https://pypi.python.org/pypi/pytest)
+[![Static Badge](https://img.shields.io/badge/requests-2.31.0-blue)](https://pypi.python.org/pypi/requests)
+[![Static Badge](https://img.shields.io/badge/allure--pytest-2.13.2-blue)](https://pypi.python.org/pypi/allure-pytest)
 
 ## :pushpin: Project Structure:
 
