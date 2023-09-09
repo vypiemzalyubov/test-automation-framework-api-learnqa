@@ -67,11 +67,16 @@ pip install -r requirements.txt
 
 ## :pushpin: Running tests
 ```python
+# Run all tests
 pytest tests/
+
+# Run positive test cases
 pytest -m "positive"
+
+# Run negative test cases
 pytest -m "negative"
 ```
-Default startup options:
+Default startup options in `pytest.ini`:
 ```python
 addopts = 
         -s -v
@@ -79,17 +84,20 @@ addopts =
 ```
 
 ## :pushpin: Viewing reports
-Install [**Allure**](https://docs.qameta.io/allure/#_get_started) from the official website
-```bash
-# Generate Allure report
-allure serve
-```
+- Install [**Allure**](https://docs.qameta.io/allure/#_get_started) from the official website
+- Generate Allure report
+  
+  ```bash
+  allure serve
+  ```
 
 ## :pushpin: Github workflow
-Go to [**"Run workflow"**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml) in GitHub Actions
-```yml
-Options:
-  - all_tests
-  - positive_tests
-  - negative_tests
-```
+- Go to [**"Run workflow"**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml) in GitHub Actions
+
+  ```yml
+  # Options in workflow
+    - all_tests
+    - positive_tests
+    - negative_tests
+  ```
+- View [**Allure test results**](https://vypiemzalyubov.github.io/test-automation-rest-api/) after completing the GitHub Actions workflow
