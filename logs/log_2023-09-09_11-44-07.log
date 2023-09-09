@@ -1,0 +1,48 @@
+
+-----
+Test: None
+Time: 2023-09-09 11:44:07.450759
+Request method: POST
+Request URL: https://playground.learnqa.ru/api_dev/user/
+Request data: {'password': '1234', 'username': 'learnqa', 'firstName': 'learnqa', 'lastName': 'learnqa', 'email': 'learnqa09092023114407@example.com'}
+Request headers: {}
+Request cookies: {}
+
+Response code: 200
+Response text: {"id":"78982"}
+Response headers: {'Date': 'Sat, 09 Sep 2023 08:44:08 GMT', 'Content-Type': 'application/json', 'Content-Length': '14', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Server': 'Apache', 'Cache-Control': 'max-age=0', 'Expires': 'Sat, 09 Sep 2023 08:44:07 GMT'}
+Response cookies: {}
+
+-----
+
+-----
+Test: None
+Time: 2023-09-09 11:44:08.221876
+Request method: POST
+Request URL: https://playground.learnqa.ru/api_dev/user/login
+Request data: {'email': 'learnqa09092023114407@example.com', 'password': '1234'}
+Request headers: {}
+Request cookies: {}
+
+Response code: 200
+Response text: {"user_id":78982}
+Response headers: {'Date': 'Sat, 09 Sep 2023 08:44:08 GMT', 'Content-Type': 'application/json', 'Content-Length': '17', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Server': 'Apache', 'Set-Cookie': 'auth_sid=2c903c2ccf05e63ef3890e7211ebf316f3eb07a5bd36bc911df03fb3ef861666', 'x-csrf-token': '20c09b3acab0d98b8488f66d7e77eb7a0da2ff79f3eb07a5bd36bc911df03fb3ef861666', 'Cache-Control': 'max-age=0', 'Expires': 'Sat, 09 Sep 2023 08:44:08 GMT'}
+Response cookies: {'auth_sid': '2c903c2ccf05e63ef3890e7211ebf316f3eb07a5bd36bc911df03fb3ef861666'}
+
+-----
+
+-----
+Test: None
+Time: 2023-09-09 11:44:08.374182
+Request method: DELETE
+Request URL: https://playground.learnqa.ru/api_dev/user/78982
+Request data: None
+Request headers: {'x-csrf-token': '20c09b3acab0d98b8488f66d7e77eb7a0da2ff79f3eb07a5bd36bc911df03fb3ef861666'}
+Request cookies: {'auth_sid': '2c903c2ccf05e63ef3890e7211ebf316f3eb07a5bd36bc911df03fb3ef861666'}
+
+Response code: 200
+Response text: 
+Response headers: {'Date': 'Sat, 09 Sep 2023 08:44:09 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '0', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Server': 'Apache', 'Cache-Control': 'max-age=0', 'Expires': 'Sat, 09 Sep 2023 08:44:08 GMT'}
+Response cookies: {}
+
+-----
