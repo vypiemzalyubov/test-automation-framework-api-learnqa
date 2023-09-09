@@ -13,8 +13,8 @@ Automated CRUD (`POST`, `GET`, `PUT`, `DELETE`) APIs using `Python`
 ## :pushpin: Prerequisites:
 
 [![Static Badge](https://img.shields.io/badge/pytest-gray)](https://pypi.python.org/pypi/pytest)[![pytest](https://img.shields.io/pypi/v/allure-pytest)](https://pypi.python.org/pypi/pytest)
-![Static Badge](https://img.shields.io/badge/requests-gray)[![requests](https://img.shields.io/pypi/v/allure-pytest)](https://pypi.python.org/pypi/requests)
-![Static Badge](https://img.shields.io/badge/allure--pytest-gray)[![allure--pytest](https://img.shields.io/pypi/v/allure-pytest)](https://pypi.python.org/pypi/allure-pytest)
+[![Static Badge](https://img.shields.io/badge/requests-gray)](https://pypi.python.org/pypi/requests)[![requests](https://img.shields.io/pypi/v/allure-pytest)](https://pypi.python.org/pypi/requests)
+[![Static Badge](https://img.shields.io/badge/allure--pytest-gray)](https://pypi.python.org/pypi/allure-pytest)[![allure--pytest](https://img.shields.io/pypi/v/allure-pytest)](https://pypi.python.org/pypi/allure-pytest)
 
 ## :pushpin: Project Structure:
 
