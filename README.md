@@ -86,10 +86,12 @@ allure serve
 ```
 
 ## :pushpin: Github workflow
-Go to [**"Run workflow"**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml) in GitHub Actions
-```yml
-Options:
-  - all_tests
-  - positive_tests
-  - negative_tests
-```
+- Go to [**"Run workflow"**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml) in GitHub Actions
+
+  ```yml
+  # Options in workflow
+    - all_tests
+    - positive_tests
+    - negative_tests
+  ```
+- View [test results](https://vypiemzalyubov.github.io/test-automation-rest-api/) after completing the GitHub Actions workflow
