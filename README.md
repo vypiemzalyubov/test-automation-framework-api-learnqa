@@ -79,14 +79,14 @@ addopts =
 ```
 
 ## :pushpin: Viewing reports
-Install [Allure](https://docs.qameta.io/allure/#_get_started) from the official website
+Install [**Allure**](https://docs.qameta.io/allure/#_get_started) from the official website
 ```bash
 # Generate Allure report
 allure serve
 ```
 
 ## :pushpin: Github Actions
-[Run workflow](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml)
+Go to [**Run workflow**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml)
 ```yml
 Options:
   - all_tests
