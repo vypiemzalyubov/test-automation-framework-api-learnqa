@@ -14,7 +14,7 @@ Automated CRUD (`POST`, `GET`, `PUT`, `DELETE`) APIs using `Python`
 
 ![Static Badge](https://img.shields.io/badge/pytest-gray)![pytest](https://img.shields.io/pypi/v/pytest)
 ![Static Badge](https://img.shields.io/badge/requests-gray)![requests](https://img.shields.io/pypi/v/requests)
-![Static Badge](https://img.shields.io/badge/allure--pytest-gray)![allure-pytest](https://img.shields.io/pypi/v/allure-pytest)
+![Static Badge](https://img.shields.io/badge/allure--pytest-gray)[![allure--pytest](https://img.shields.io/pypi/v/allure-pytest)](https://pypi.python.org/pypi/allure-pytest)
 
 ## :pushpin: Project Structure:
 
