@@ -7,7 +7,7 @@ Framework for automating API testing from the course ["Automating REST API testi
 
 ## :pushpin: Navigation
 
-**[Description](https://github.com/vypiemzalyubov/test-automation-rest-api#rocket-description) | [Prerequisites](https://github.com/vypiemzalyubov/test-automation-rest-api#rocket-prerequisites) | [Project Structure](https://github.com/vypiemzalyubov/test-automation-rest-api#rocket-project-structure) | [Project Setup](https://github.com/vypiemzalyubov/test-automation-rest-api/tree/main#pushpin-project-setup) | [Running tests](https://github.com/vypiemzalyubov/test-automation-rest-api/tree/main#pushpin-running-tests) | [Viewing reports](https://github.com/vypiemzalyubov/test-automation-rest-api/tree/main#pushpin-viewing-reports) | [Github Actions](https://github.com/vypiemzalyubov/test-automation-rest-api/tree/main#pushpin-github-actions)**
+**[Description](https://github.com/vypiemzalyubov/test-automation-rest-api#rocket-description) | [Prerequisites](https://github.com/vypiemzalyubov/test-automation-rest-api#rocket-prerequisites) | [Project Structure](https://github.com/vypiemzalyubov/test-automation-rest-api#rocket-project-structure) | [Project Setup](https://github.com/vypiemzalyubov/test-automation-rest-api/tree/main#pushpin-project-setup) | [Running tests](https://github.com/vypiemzalyubov/test-automation-rest-api/tree/main#pushpin-running-tests) | [Viewing reports](https://github.com/vypiemzalyubov/test-automation-rest-api/tree/main#pushpin-viewing-reports) | [Github workflow](https://github.com/vypiemzalyubov/test-automation-rest-api/tree/main#pushpin-github-workflow)**
 
 ## :pushpin: Description:
 
