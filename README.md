@@ -8,8 +8,8 @@ Automated CRUD (`POST`, `GET`, `PUT`, `DELETE`) APIs using `Python`
 
 ## :rocket: Prerequisites
 
-![allure-pytest](https://img.shields.io/pypi/v/allure-pytest)
+![Static Badge](https://img.shields.io/badge/pytest-gray)![pytest](https://img.shields.io/pypi/v/pytest)
+![Static Badge](https://img.shields.io/badge/requests-gray)![requests](https://img.shields.io/pypi/v/requests)
+![Static Badge](https://img.shields.io/badge/allure--pytest-gray)![allure-pytest](https://img.shields.io/pypi/v/allure-pytest)
 
-![requests](https://img.shields.io/pypi/v/requests)
 
-![pytest](https://img.shields.io/pypi/v/pytest)
