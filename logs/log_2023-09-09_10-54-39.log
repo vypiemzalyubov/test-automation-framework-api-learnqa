@@ -1,0 +1,32 @@
+
+-----
+Test: None
+Time: 2023-09-09 10:54:39.764474
+Request method: POST
+Request URL: https://playground.learnqa.ru/api_dev/user/login
+Request data: {'email': 'vinkotov@example.com', 'password': '1234'}
+Request headers: {}
+Request cookies: {}
+
+Response code: 200
+Response text: {"user_id":2}
+Response headers: {'Date': 'Sat, 09 Sep 2023 07:54:40 GMT', 'Content-Type': 'application/json', 'Content-Length': '13', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Server': 'Apache', 'Set-Cookie': 'auth_sid=ea6d6ce5d55e8243159d978f8c05661402e94918f1549272bcf2cafc2634fd9d', 'x-csrf-token': '8ac97e9ce93eb202fc432244ca845a8ba44a15f202e94918f1549272bcf2cafc2634fd9d', 'Cache-Control': 'max-age=0', 'Expires': 'Sat, 09 Sep 2023 07:54:40 GMT'}
+Response cookies: {'auth_sid': 'ea6d6ce5d55e8243159d978f8c05661402e94918f1549272bcf2cafc2634fd9d'}
+
+-----
+
+-----
+Test: None
+Time: 2023-09-09 10:54:40.005979
+Request method: DELETE
+Request URL: https://playground.learnqa.ru/api_dev/user/2
+Request data: None
+Request headers: {'x-csrf-token': '8ac97e9ce93eb202fc432244ca845a8ba44a15f202e94918f1549272bcf2cafc2634fd9d'}
+Request cookies: {'auth_sid': 'ea6d6ce5d55e8243159d978f8c05661402e94918f1549272bcf2cafc2634fd9d'}
+
+Response code: 400
+Response text: Please, do not delete test users with ID 1, 2, 3, 4 or 5.
+Response headers: {'Date': 'Sat, 09 Sep 2023 07:54:40 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '57', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Server': 'Apache'}
+Response cookies: {}
+
+-----

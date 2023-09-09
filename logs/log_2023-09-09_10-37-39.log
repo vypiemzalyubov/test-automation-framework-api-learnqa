@@ -1,0 +1,49 @@
+
+-----
+Test: None
+Time: 2023-09-09 10:37:39.498167
+Request method: POST
+Request URL: https://playground.learnqa.ru/api_dev/user/login
+Request data: {'email': 'vinkotov@example.com', 'password': '1234'}
+Request headers: {}
+Request cookies: {}
+
+Response code: 200
+Response text: {"user_id":2}
+Response headers: {'Date': 'Sat, 09 Sep 2023 07:37:39 GMT', 'Content-Type': 'application/json', 'Content-Length': '13', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Server': 'Apache', 'Set-Cookie': 'auth_sid=611835460991fe2f8f0fb0e0eac620ad02e94918f1549272bcf2cafc2634fd9d', 'x-csrf-token': '9a5990331a1819b467201e8038e0348f83524dcd02e94918f1549272bcf2cafc2634fd9d', 'Cache-Control': 'max-age=0', 'Expires': 'Sat, 09 Sep 2023 07:37:39 GMT'}
+Response cookies: {'auth_sid': '611835460991fe2f8f0fb0e0eac620ad02e94918f1549272bcf2cafc2634fd9d'}
+
+-----
+
+-----
+Test: None
+Time: 2023-09-09 10:37:39.708974
+Request method: GET
+Request URL: https://playground.learnqa.ru/api_dev/user/auth
+Request data: None
+Request headers: {'x-csrf-token': '9a5990331a1819b467201e8038e0348f83524dcd02e94918f1549272bcf2cafc2634fd9d'}
+Request cookies: {'auth_sid': '611835460991fe2f8f0fb0e0eac620ad02e94918f1549272bcf2cafc2634fd9d'}
+
+Response code: 200
+Response text: {"user_id":2}
+Response headers: {'Date': 'Sat, 09 Sep 2023 07:37:40 GMT', 'Content-Type': 'application/json', 'Content-Length': '13', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Server': 'Apache', 'Cache-Control': 'max-age=0', 'Expires': 'Sat, 09 Sep 2023 07:37:40 GMT'}
+Response cookies: {}
+
+-----
+
+-----
+Test: None
+Time: 2023-09-09 10:37:39.995410
+Request method: DELETE
+Request URL: https://playground.learnqa.ru/api_dev/user/{user_id_from_auth_method}
+Request data: None
+Request headers: {}
+Request cookies: {}
+
+Response code: 404
+Response text: This is 404 error!
+<a href='/'>Home</a>
+Response headers: {'Date': 'Sat, 09 Sep 2023 07:37:40 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Vary': 'Accept-Encoding', 'Server': 'Apache', 'Content-Encoding': 'gzip'}
+Response cookies: {}
+
+-----
