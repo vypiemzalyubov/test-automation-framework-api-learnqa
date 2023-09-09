@@ -94,4 +94,4 @@ allure serve
     - positive_tests
     - negative_tests
   ```
-- View [test results](https://vypiemzalyubov.github.io/test-automation-rest-api/) after completing the GitHub Actions workflow
+- View [Allure test results](https://vypiemzalyubov.github.io/test-automation-rest-api/) after completing the GitHub Actions workflow
