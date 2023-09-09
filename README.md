@@ -1,6 +1,6 @@
 # Test Automation REST API
 
-The framework for automating the testing of the test API of the course [Automating the testing of the REST API in Python](https://www.learnqa.ru/python_api) from LearnQA using `Python` and `Pytest`
+Framework for automating API testing from the course ["Automating REST API testing in Python"](https://www.learnqa.ru/python_api) by LearnQA
 
 ## :pushpin: Navigation
 
