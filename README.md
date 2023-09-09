@@ -12,7 +12,7 @@ Framework for automating API testing from the course ["Automating REST API testi
 ## :pushpin: Description:
 
 - Automated CRUD (`POST`, `GET`, `PUT`, `DELETE`) APIs using `Python` and `Pytest`
-- Continuous testing with [Github Actions](https://github.com/features/actions/)
+- Continuous testing with [GitHub Actions](https://github.com/features/actions/)
 
 ## :pushpin: Prerequisites:
 
@@ -85,8 +85,8 @@ Install [**Allure**](https://docs.qameta.io/allure/#_get_started) from the offic
 allure serve
 ```
 
-## :pushpin: Github Actions
-Go to [**Run workflow**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml)
+## :pushpin: Github Workflow
+Go to [**"Run workflow"**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml) in GitHub Actions
 ```yml
 Options:
   - all_tests
