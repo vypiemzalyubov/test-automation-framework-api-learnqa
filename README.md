@@ -84,3 +84,12 @@ Install [Allure](https://docs.qameta.io/allure/#_get_started) from the official 
 # Generate Allure report
 allure serve
 ```
+
+## :pushpin: Github Actions
+[Run workflow](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml)
+```yml
+Options:
+  - all_tests
+  - positive_tests
+  - negative_tests
+```
