@@ -76,12 +76,12 @@ pytest -m "positive"
 # Run negative test cases
 pytest -m "negative"
 ```
-Default startup options in `pytest.ini`:
-```python
-addopts = 
-        -s -v
-        --alluredir=allure-results
-```
+>Default startup options in `pytest.ini`:
+>```python
+>addopts = 
+>        -s -v
+>        --alluredir=allure-results
+>```
 
 ## :pushpin: Viewing reports
 - Install [**Allure**](https://docs.qameta.io/allure/#_get_started) from the official website
