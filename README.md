@@ -49,3 +49,34 @@ test-automation-rest-api/
 ├─ pytest.ini
 ├─ requirements.txt
 ```
+
+## :pushpin: Project Setup
+```bash
+# Clone repository
+git clone https://github.com/vypiemzalyubov/test-automation-rest-api.git
+
+# Install virtual environment
+python3 -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## :pushpin: Running tests
+```python
+pytest tests/
+
+# pytest.ini
+[pytest]
+
+markers =
+    positive: positive test cases
+    negative: negative test cases
+
+addopts = 
+        -s -v
+        --alluredir=allure-results
+```
