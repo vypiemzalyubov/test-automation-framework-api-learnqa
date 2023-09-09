@@ -85,7 +85,7 @@ Install [**Allure**](https://docs.qameta.io/allure/#_get_started) from the offic
 allure serve
 ```
 
-## :pushpin: Github Workflow
+## :pushpin: Github workflow
 Go to [**"Run workflow"**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml) in GitHub Actions
 ```yml
 Options:
