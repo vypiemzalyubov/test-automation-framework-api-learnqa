@@ -79,12 +79,15 @@ jobs:
       - name: Run all tests
         if: github.event.inputs.deployment_target == 'all_tests'
         run: pytest --alluredir=allure-results
+        continue-on-error: true
       - name: Run positive tests
         if: github.event.inputs.deployment_target == 'positive_tests'
         run: pytest -m "positive" --alluredir=allure-results
+        continue-on-error: true
       - name: Run negative tests
         if: github.event.inputs.deployment_target == 'negative_tests'
         run: pytest -m "negative" --alluredir=allure-results
+        continue-on-error: true
       - name: Store allure results
         uses: actions/upload-artifact@v3
         with:
