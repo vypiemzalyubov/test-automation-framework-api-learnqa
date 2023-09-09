@@ -68,15 +68,19 @@ pip install -r requirements.txt
 ## :pushpin: Running tests
 ```python
 pytest tests/
-
-# pytest.ini
-[pytest]
-
-markers =
-    positive: positive test cases
-    negative: negative test cases
-
+pytest -m "positive"
+pytest -m "negative"
+```
+Default startup options:
+```python
 addopts = 
         -s -v
         --alluredir=allure-results
+```
+
+## :pushpin: Viewing reports
+Install [Allure](https://docs.qameta.io/allure/#_get_started) from the official website
+```bash
+# Generate Allure report
+allure serve
 ```
