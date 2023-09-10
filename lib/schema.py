@@ -14,3 +14,14 @@ schema_auth_user = {
     "required": ["user_id"]
 }
 
+schema_user_info = {
+    "type": "object",
+    "properties": {
+        "id": {"type": "string"},
+        "username": {"type": "string"},
+        "email": {"type": "string", "format": "email"},
+        "firstName": {"type": "string"},
+        "lastName": {"type": "string"}
+    },
+    "required": ["id", "username", "email", "firstName", "lastName"]
+}
