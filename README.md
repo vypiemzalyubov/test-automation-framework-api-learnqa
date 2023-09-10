@@ -76,7 +76,7 @@ pytest -m "positive"
 # Run negative test cases
 pytest -m "negative"
 
-# Run tests with the "prod" environment (default "dev")
+# Run tests with "prod" environment (default "dev")
 ENV=prod pytest tests/
 ```
 >Default startup options in `pytest.ini`:
