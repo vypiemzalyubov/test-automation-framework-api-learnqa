@@ -1,4 +1,4 @@
-schema_register_user = {
+schema_user_register = {
     "type": "object",
     "properties": {
         "id": {"type": "string"}
@@ -6,7 +6,7 @@ schema_register_user = {
     "required": ["id"]
 }
 
-schema_auth_user = {
+schema_user_auth = {
     "type": "object",
     "properties": {
         "user_id": {"type": "integer"}

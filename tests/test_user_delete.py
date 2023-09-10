@@ -1,6 +1,6 @@
 import pytest
 import allure
-from lib.schema import schema_register_user
+from lib.schema import schema_user_register
 from lib.base_case import BaseCase
 from lib.assertions import Assertions
 from lib.my_requests import MyRequests
@@ -45,7 +45,7 @@ class TestUserDelete(BaseCase):
         response1 = MyRequests.post("/user/", data=register_data)
 
         Assertions.assert_code_status(response1, 200)
-        Assertions.assert_validate_json_schema(response1, schema_register_user)
+        Assertions.assert_validate_json_schema(response1, schema_user_register)
         Assertions.assert_json_has_key(response1, "id")
         
         user_id = self.get_json_value(response1, "id")
@@ -89,7 +89,7 @@ class TestUserDelete(BaseCase):
         response_register1 = MyRequests.post("/user/", data=register_data1)
 
         Assertions.assert_code_status(response_register1, 200)
-        Assertions.assert_validate_json_schema(register_data1, schema_register_user)
+        Assertions.assert_validate_json_schema(register_data1, schema_user_register)
         Assertions.assert_json_has_key(response_register1, "id")
 
         first_name1 = register_data1["firstName"]
@@ -102,7 +102,7 @@ class TestUserDelete(BaseCase):
         response_register2 = MyRequests.post("/user/", data=register_data2)
 
         Assertions.assert_code_status(response_register2, 200)
-        Assertions.assert_validate_json_schema(register_data2, schema_register_user)
+        Assertions.assert_validate_json_schema(register_data2, schema_user_register)
         Assertions.assert_json_has_key(response_register2, "id")
 
         password2 = register_data2["password"]

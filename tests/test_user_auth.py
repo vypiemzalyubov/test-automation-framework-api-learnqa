@@ -1,6 +1,6 @@
 import pytest
 import allure
-from lib.schema import schema_auth_user
+from lib.schema import schema_user_auth
 from lib.base_case import BaseCase
 from lib.assertions import Assertions
 from lib.my_requests import MyRequests
@@ -38,7 +38,7 @@ class TestUserAuth(BaseCase):
             cookies={"auth_sid": self.auth_sid}
         )
 
-        Assertions.assert_validate_json_schema(response2, schema_auth_user)
+        Assertions.assert_validate_json_schema(response2, schema_user_auth)
         Assertions.assert_json_value_by_name(
             response2,
             "user_id",
@@ -63,7 +63,7 @@ class TestUserAuth(BaseCase):
                 cookies={"auth_sid": self.auth_sid}
             )
 
-        Assertions.assert_validate_json_schema(response2, schema_auth_user)
+        Assertions.assert_validate_json_schema(response2, schema_user_auth)
         Assertions.assert_json_value_by_name(
             response2,
             "user_id",

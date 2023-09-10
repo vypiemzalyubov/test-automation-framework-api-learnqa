@@ -1,6 +1,6 @@
 import pytest
 import allure
-from lib.schema import schema_register_user, schema_user_info
+from lib.schema import schema_user_register, schema_user_info
 from lib.base_case import BaseCase
 from lib.assertions import Assertions
 from lib.my_requests import MyRequests
@@ -19,7 +19,7 @@ class TestUserEdit(BaseCase):
         response1 = MyRequests.post("/user/", data=register_data)
 
         Assertions.assert_code_status(response1, 200)
-        Assertions.assert_validate_json_schema(response1, schema_register_user)
+        Assertions.assert_validate_json_schema(response1, schema_user_register)
         Assertions.assert_json_has_key(response1, "id")
 
         email = register_data["email"]
@@ -66,7 +66,7 @@ class TestUserEdit(BaseCase):
         response1 = MyRequests.post("/user/", data=register_data)
 
         Assertions.assert_code_status(response1, 200)
-        Assertions.assert_validate_json_schema(response1, schema_register_user)
+        Assertions.assert_validate_json_schema(response1, schema_user_register)
         Assertions.assert_json_has_key(response1, "id")
 
         email = register_data["email"]
@@ -113,7 +113,7 @@ class TestUserEdit(BaseCase):
         response1 = MyRequests.post("/user/", data=register_data1)
 
         Assertions.assert_code_status(response1, 200)
-        Assertions.assert_validate_json_schema(response1, schema_register_user)
+        Assertions.assert_validate_json_schema(response1, schema_user_register)
         Assertions.assert_json_has_key(response1, "id")
 
         first_name1 = register_data1["firstName"]
@@ -126,7 +126,7 @@ class TestUserEdit(BaseCase):
         response2 = MyRequests.post("/user/", data=register_data2)
 
         Assertions.assert_code_status(response2, 200)
-        Assertions.assert_validate_json_schema(response2, schema_register_user)
+        Assertions.assert_validate_json_schema(response2, schema_user_register)
         Assertions.assert_json_has_key(response2, "id")
 
         password2 = register_data2["password"]
@@ -180,7 +180,7 @@ class TestUserEdit(BaseCase):
         response1 = MyRequests.post("/user/", data=register_data)
 
         Assertions.assert_code_status(response1, 200)
-        Assertions.assert_validate_json_schema(response1, schema_register_user)
+        Assertions.assert_validate_json_schema(response1, schema_user_register)
         Assertions.assert_json_has_key(response1, "id")
 
         email = register_data["email"]
@@ -227,7 +227,7 @@ class TestUserEdit(BaseCase):
         response1 = MyRequests.post("/user/", data=register_data)
 
         Assertions.assert_code_status(response1, 200)
-        Assertions.assert_validate_json_schema(response1, schema_register_user)
+        Assertions.assert_validate_json_schema(response1, schema_user_register)
         Assertions.assert_json_has_key(response1, "id")
 
         first_name = register_data["firstName"]
