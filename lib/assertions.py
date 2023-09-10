@@ -65,7 +65,7 @@ class Assertions:
 
 
     @staticmethod
-    @allure.step("Валидации JSON схемы")
+    @allure.step("Валидация JSON схемы")
     def assert_validate_json_schema(response: Response, schema: dict) -> None:
         try:
             response_as_dict = response.json()

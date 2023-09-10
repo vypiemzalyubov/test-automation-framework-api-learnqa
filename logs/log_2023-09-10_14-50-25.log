@@ -1,0 +1,16 @@
+
+-----
+Test: None
+Time: 2023-09-10 14:50:25.215757
+Request method: POST
+Request URL: https://playground.learnqa.ru/api_dev/user/
+Request data: {'password': '1234', 'username': 'learnqa', 'firstName': 'learnqa', 'lastName': 'learnqa', 'email': 'learnqa09102023145025@example.com'}
+Request headers: {}
+Request cookies: {}
+
+Response code: 200
+Response text: {"id":"79255"}
+Response headers: {'Date': 'Sun, 10 Sep 2023 11:50:25 GMT', 'Content-Type': 'application/json', 'Content-Length': '14', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=10', 'Server': 'Apache', 'Cache-Control': 'max-age=0', 'Expires': 'Sun, 10 Sep 2023 11:50:25 GMT'}
+Response cookies: {}
+
+-----
