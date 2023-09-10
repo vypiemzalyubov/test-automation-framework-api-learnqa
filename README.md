@@ -19,6 +19,7 @@ Framework for automating API testing from the course [**"Automating REST API tes
 [![Pytest](https://img.shields.io/badge/pytest-7.4.2-blue)](https://pypi.python.org/pypi/pytest)
 [![Requests](https://img.shields.io/badge/requests-2.31.0-blue)](https://pypi.python.org/pypi/requests)
 [![Allure Pytest](https://img.shields.io/badge/allure--pytest-2.13.2-blue)](https://pypi.python.org/pypi/allure-pytest)
+[![JSON Schema](https://img.shields.io/badge/jsonschema-4.19.0-blue)](https://pypi.org/project/jsonschema/)
 
 ## :pushpin: Project Structure:
 
@@ -33,6 +34,7 @@ test-automation-rest-api/
 │  ├─ base_case.py
 │  ├─ logger.py
 │  ├─ my_requests.py
+│  ├─ schema.py
 ├─ logs 
 ├─ tests/
 │  ├─ __init__.py
