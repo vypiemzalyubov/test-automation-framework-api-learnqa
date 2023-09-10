@@ -25,3 +25,11 @@ schema_user_info = {
     },
     "required": ["id", "username", "email", "firstName", "lastName"]
 }
+
+schema_unauthorized_user = {
+    "type": "object",
+    "properties": {
+        "username": {"type": "string"}
+    },
+    "required": ["username"]
+}
