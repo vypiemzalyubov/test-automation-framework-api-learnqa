@@ -96,6 +96,15 @@ ENV=prod pytest tests/
   allure serve
   ```
 
+## :pushpin: Running in Docker
+```bash
+# Build an image named "pytest-runner"
+docker build -t pytest-runner .
+
+# Launch the container
+docker run pytest-runner
+```
+
 ## :pushpin: Github workflow
 - Go to [**"Run workflow"**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml) in GitHub Actions
 
