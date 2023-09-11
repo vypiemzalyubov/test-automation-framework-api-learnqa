@@ -88,14 +88,6 @@ ENV=prod pytest tests/
 >        --alluredir=allure-results
 >```
 
-## :pushpin: Viewing reports
-- Install [**Allure**](https://docs.qameta.io/allure/#_get_started) from the official website
-- Generate Allure report
-  
-  ```bash
-  allure serve
-  ```
-
 ## :pushpin: Running in Docker
 ```bash
 # Build an image named "pytest-runner"
@@ -107,6 +99,14 @@ docker run pytest-runner
 # Running with Docker Compose
 docker-compose up --build
 ```
+
+## :pushpin: Viewing reports
+- Install [**Allure**](https://docs.qameta.io/allure/#_get_started) from the official website
+- Generate Allure report
+  
+  ```bash
+  allure serve
+  ```
 
 ## :pushpin: Github workflow
 - Go to [**"Run workflow"**](https://github.com/vypiemzalyubov/test-automation-rest-api/actions/workflows/run_tests.yml) in GitHub Actions
