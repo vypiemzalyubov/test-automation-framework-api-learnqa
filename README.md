@@ -103,6 +103,9 @@ docker build -t pytest-runner .
 
 # Launch the container
 docker run pytest-runner
+
+# Running with Docker Compose
+docker-compose up --build
 ```
 
 ## :pushpin: Github workflow
