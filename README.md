@@ -88,6 +88,18 @@ ENV=prod pytest tests/
 >        --alluredir=allure-results
 >```
 
+## :pushpin: Running in Docker
+```bash
+# Build an image named "pytest-runner"
+docker build -t pytest-runner .
+
+# Launch the container
+docker run pytest-runner
+
+# Running with Docker Compose
+docker-compose up --build
+```
+
 ## :pushpin: Viewing reports
 - Install [**Allure**](https://docs.qameta.io/allure/#_get_started) from the official website
 - Generate Allure report
