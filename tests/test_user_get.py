@@ -1,6 +1,6 @@
 import pytest
 import allure
-from lib.schema import schema_user_register, schema_user_info, schema_unauthorized_user
+from lib.schema import schema_user_info, schema_unauthorized_user
 from lib.base_case import BaseCase
 from lib.assertions import Assertions
 from lib.my_requests import MyRequests
