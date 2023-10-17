@@ -1,6 +1,6 @@
 # Test Automation REST API
 
-[![Python](https://img.shields.io/badge/python-3.11.2%2B-blue)](https://www.python.org/downloads/release/python-3112/)
+[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue)](https://www.python.org/downloads/release/python-3120/)
 [![Build](https://github.com/franneck94/Python-Project-Template/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/vypiemzalyubov/test-automation-rest-api/actions)
 
 Framework for automating API testing from the course [**"Automating REST API testing in Python"**](https://www.learnqa.ru/python_api) by LearnQA
